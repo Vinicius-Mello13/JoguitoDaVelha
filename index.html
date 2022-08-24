@@ -8,9 +8,7 @@
     <title>Joguito da Terceira Idade</title>
   </head>
   <body>
-    <div class="board x">
-      <div class="cell x" data-cell=""></div>
-      <div class="cell circle" data-cell=""></div>
+    <div class="board x" data-board>
       <div class="cell" data-cell=""></div>
       <div class="cell" data-cell=""></div>
       <div class="cell" data-cell=""></div>
@@ -18,11 +16,13 @@
       <div class="cell" data-cell=""></div>
       <div class="cell" data-cell=""></div>
       <div class="cell" data-cell=""></div>
-     
+      <div class="cell" data-cell=""></div>
+      <div class="cell" data-cell=""></div>
     </div>
+
     <div class="winning-message" data-winning-message>
-      <p>X Venceu</p>
-      <button>Reinicie o Game</button>
+      <p class="winning-message-text" data-winning-message-text></p>
+      <button class="winning-message-button" data-restart-button>Joga só mais umazinha, vai?!</button>
     </div>
     <script src="./scripts.js"></script>
   </body>
