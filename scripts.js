@@ -35,7 +35,7 @@ const startGame = () => {
 
 const endGame = (isDraw) => {
   if (isDraw) {
-    winningMessageTextElement.innerText = "Não acho que quem ganhou ou quem perdeu, nem quem ganhou nem perdeu, ganhou ou perdeu. Todo mundo perdeu.!";
+    winningMessageTextElement.innerText = "Não acho que quem ganhou ou quem perdeu, nem quem ganhou nem perdeu, ganhou ou perdeu. Todo mundo perdeu!";
   } else {
     winningMessageTextElement.innerText = isCircleTurn
       ? "A bolinha levou essa, hein!!!"
